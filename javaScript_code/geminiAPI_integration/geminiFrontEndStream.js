@@ -21,7 +21,7 @@ try {
 
         const responseStream = await ai.models.generateContentStream({
             model:"gemini-2.5-flash",
-            contents:"What is programming?",
+            contents:"tell me 20 flowers name in marathi",
             config:{
                 systemInstruction:"You are a helpful assistant that provides concise and clear explanations in detailed 1000 words.",
             }
